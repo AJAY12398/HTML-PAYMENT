@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaymentGateway</title>
+</head>
+<body>
+    <form action="abc.php"></form>
+    <h2>Registration charge</h2>
+    <h3>Personal Information</h3>
+  <p>  Name  : <input type="text" name = "name"  placeholder = "Enter your name" > <br></p>
+  <p>  Email :  <input type="email" name = "email" placeholder = "xyz1@gmail.com"></p>
+   <p>
+       <legend>Gender</legend>
+            <fieldset>
+                 : Male <input type= "radio" name  = "gender"  >
+                Female <input type= "radio" name  = "gender"  >
+            </fieldset>
+   </p>
+   <p> IMG : <input type="file" name="img" id="img"></p>
+   <p> serch city : <input type="search" name="serch" id="serch"></p>
+   <!-- <p>Adress : <input type="textarea" placeholder="Enter your adress here" name = "adress"></p> -->
+   <p>Adress : <textarea name="adress" id="address" cols="30" rows="10" placeholder="enter your adress here"></textarea></p>
+   <p> pincode :  <input type="number" name = "pincode" id ="pincode"></p>
+
+   <h3>Paymet Information</h3>
+   <p>card type : 
+       <select name="card_type" id="card_type">
+           <option value="">--Select a card type--</option>
+           <option value="">VISA</option>
+           <option value="">DEBIT</option>
+           <option value="">MASTER</option>
+       </select>
+   </p>
+   <p>
+       card number : <input type="number" id = "cardnumber">
+   </p>
+   <p>
+       Exp Date: <input type="date" name="date" id="date">
+   </p>
+   <p>
+       cvv : <input type="password" name="cvv" id="cvv">
+   </p>
+   <p>
+       <input type="submit" value="Paynow">
+       <input type="reset" value="Reset">
+   </p>
+
+</body>
+</html>
